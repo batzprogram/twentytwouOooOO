@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>22</title>
+
+    <audio id="myAudio">
+        <source src="22.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      
+
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+
+        .timer{
+            position: fixed;
+            bottom: 15px;
+            left: 50%;
+            width: 450px;
+            text-align: center;
+            transform: translateX(-50%);
+            font-family: monospace;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="timer"><span class="seconds">0</span> detik</div>
+    <script src="./index.js"></script>
+</body>
+</html>
